@@ -85,9 +85,8 @@ To run the application in a docker container, you can use the "command_scripts" 
 
 ## Load balancing algorithms comparison
 
-I measured the performance for 250, 375 and 500 requests, for each of the algorithms.
+I measured the performance for 250, 375 and 500 requests, for each of the algorithms (these are results of 1 test).
 
 ![Full Graph](./graphics/full.svg "Full graph")
-![250 requests](./graphics/zoomed_1.svg "250 requests")
-![375 requests](./graphics/zoomed_2.svg "375 requests")
-![500 requests](./graphics/zoomed_3.svg "500 requests")
+
+One thing that is evident is the fact that the "Lowest" algorithm is by far the slowest, as the requests are not split at all (and the latency difference between the workers is not that big).

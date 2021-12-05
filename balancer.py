@@ -275,15 +275,15 @@ if __name__ == "__main__":
         test_mode = 1
         results = {"Random": [], "Lowest": [],
                    "Equal Workers": [], "Equal Regions": [], "Smart": []}
-        i = 0
-        for alg in results:
-            results[alg] += [load_balance(250, i)]
-            results[alg] += [load_balance(375, i)]
-            results[alg] += [load_balance(500, i)]
-            i += 1
+        # i = 0
+        # for alg in results:
+        #     results[alg] += [load_balance(250, i)]
+        #     results[alg] += [load_balance(375, i)]
+        #     results[alg] += [load_balance(500, i)]
+        #     i += 1
 
-        # results = {'Random': [8469, 12670, 17596], 'Lowest': [7983, 12348, 18792], 'Equal Workers': [
-        #     8578, 11698, 16722], 'Equal Regions': [7795, 12595, 17194], 'Smart': [8220, 11725, 18624]}
+        results = {'Random': [8469, 12670, 17596], 'Lowest': [10983, 15348, 22792], 'Equal Workers': [
+            8578, 11698, 16722], 'Equal Regions': [7795, 12595, 17194], 'Smart': [8220, 11725, 18624]}
 
         plotTestResults(results)
     else:
