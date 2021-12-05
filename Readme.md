@@ -1,11 +1,11 @@
-# Load balancer (Performance Evaluation Assignement)
+# Load balancer ([Performance Evaluation Assignement](https://ocw.cs.pub.ro/courses/ep/teme/01))
 
 ## Student info
 
-Name: Grama Nicolae
-Group: 342C5
-Completed parts: All
-Expected grade: 11
+- Name: Grama Nicolae
+- Group: 342C5
+- Completed parts: All
+- Expected grade: 11
 
 ## System limits analysis
 
