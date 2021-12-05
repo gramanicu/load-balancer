@@ -1,4 +1,4 @@
-# Load balancer ([Performance Evaluation Assignement](https://ocw.cs.pub.ro/courses/ep/teme/01))
+# Load balancer ([Performance Evaluation Assignment](https://ocw.cs.pub.ro/courses/ep/teme/01))
 
 ## Student info
 
