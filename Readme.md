@@ -90,3 +90,10 @@ I measured the performance for 250, 375 and 500 requests, for each of the algori
 ![Full Graph](./graphics/full.svg "Full graph")
 
 One thing that is evident is the fact that the "Lowest" algorithm is by far the slowest, as the requests are not split at all (and the latency difference between the workers is not that big).
+
+The other ones have similar performance. The best results were obtained using the "Equal Workers" algorithm, as the latency differences were small and the
+number of request is not huge. It's benefits (comparet to "Equal Regions") can be seen when the number of requests increases.
+
+The "Smart" algorithm is slower most likely because it adds some overhead, computing the weights needed for each worker.
+
+Sometimes, the random algorithm had the best performances, as it happened to send requests to workers that were not under load. By decreasing the number of requests, the chance of picking the right workers increased.
