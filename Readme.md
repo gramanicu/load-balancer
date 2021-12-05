@@ -83,4 +83,11 @@ To run the application in a docker container, you can use the "command_scripts" 
 
 `docker run gramanicu-load-balancer <NO_OF_REQS> <ALGORITHM?>`
 
-## Load balancing algorithms comparion
+## Load balancing algorithms comparison
+
+I measured the performance for 250, 375 and 500 requests, for each of the algorithms.
+
+![Full Graph]("./../graphics/full.svg")
+![250 requests]("./../graphics/zoomed1.svg")
+![375 request]("./../graphics/zoomed2.svg")
+![500 requests]("./../graphics/zoomed3.svg")

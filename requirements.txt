@@ -1,2 +1,4 @@
 requests
 aiohttp
+matplotlib
+np
