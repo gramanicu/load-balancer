@@ -79,9 +79,11 @@ The application can be run using the following command:
 
 `python balancer.py <NO_OF_REQS> <ALGORITHM?>`
 
-To run the application in a docker container, you can use the "command_scripts" to build and load the docker image, and to run the app:
+To run the application in a docker container, you can use the "command_scripts" to build and load the docker image:
 
-`docker run gramanicu-load-balancer <NO_OF_REQS> <ALGORITHM?>`
+- `docker build --tag gramanicu-load-balancer .` (builds the image)
+- `docker create gramanicu-load-balancer` (creates a container based on the image)
+- `docker run gramanicu-load-balancer <NO_OF_REQS> <ALGORITHM?>` (runs the load balancer from the container, with the specified args)
 
 ## Load balancing algorithms comparison
 
